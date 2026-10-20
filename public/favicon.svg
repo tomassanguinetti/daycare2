@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Shell Background -->
+  <ellipse cx="32" cy="34" rx="20" ry="16" fill="#4B8263" />
+  <ellipse cx="32" cy="34" rx="17" ry="13" fill="#659B79" />
+  <!-- Shell Pattern Hexagons -->
+  <polygon points="32,26 38,30 38,38 32,42 26,38 26,30" fill="#78A885" stroke="#3D6B50" stroke-width="1.5" stroke-linejoin="round" />
+  <path d="M26,30 L20,27 M38,30 L44,27 M38,38 L44,41 M32,42 L32,48 M26,38 L20,41 M32,26 L32,20" stroke="#3D6B50" stroke-width="1.5" stroke-linecap="round" />
+  <!-- Flippers -->
+  <path d="M16 26 C12 22, 10 28, 14 34" stroke="#4B8263" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  <path d="M48 26 C52 22, 54 28, 50 34" stroke="#4B8263" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  <path d="M18 42 C14 45, 13 49, 17 48" stroke="#4B8263" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M46 42 C50 45, 51 49, 47 48" stroke="#4B8263" stroke-width="4" stroke-linecap="round" fill="none" />
+  <!-- Cute Head -->
+  <circle cx="32" cy="18" r="9" fill="#78A885" stroke="#3D6B50" stroke-width="1.5" />
+  <!-- Cheeks -->
+  <ellipse cx="26" cy="20" rx="1.8" ry="1.2" fill="#F49097" opacity="0.8" />
+  <ellipse cx="38" cy="20" rx="1.8" ry="1.2" fill="#F49097" opacity="0.8" />
+  <!-- Eyes -->
+  <circle cx="28.5" cy="16.5" r="1.5" fill="#1F3A2C" />
+  <circle cx="28" cy="16" r="0.5" fill="#FFFFFF" />
+  <circle cx="35.5" cy="16.5" r="1.5" fill="#1F3A2C" />
+  <circle cx="35" cy="16" r="0.5" fill="#FFFFFF" />
+  <!-- Smile -->
+  <path d="M30 20 Q32 22 34 20" stroke="#1F3A2C" stroke-width="1.2" stroke-linecap="round" fill="none" />
+</svg>

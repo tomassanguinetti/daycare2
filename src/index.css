@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-brand {
+    font-family: 'Quicksand', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom subtle organic patterns */
+.bg-warm-pattern {
+  background-color: #FBF9F4;
+  background-image: radial-gradient(#E8DFC9 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
+
+/* Smooth continuous autoscroll */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-autoscroll {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+.animate-autoscroll:hover {
+  animation-play-state: paused;
+}
+
+.animate-autoscroll-slow {
+  display: flex;
+  width: max-content;
+  animation: marquee 60s linear infinite;
+}
+
+.animate-autoscroll-slow:hover {
+  animation-play-state: paused;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Tiny Turtles Home Daycare",
+  "description": "Nurturing, play-based home childcare in Orléans, Ottawa. A safe, loving, small-group environment where little ones learn, explore, and thrive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
