@@ -11,7 +11,7 @@ This project is fully configured and ready for 1-click or CLI deployment to **Cl
 | **Framework Preset** | `Vite` |
 | **Build Command** | `npm run build` |
 | **Build Output Directory** | `dist` |
-| **Node.js Version** | `20` (configured in `.node-version`) |
+| **Node.js Version** | `22.0.0` (configured in `.node-version` & `.nvmrc`) |
 | **SPA Fallback Routing** | `/* /index.html 200` (configured in `public/_redirects`) |
 | **Security & Cache Headers** | Configured in `public/_headers` |
 | **Cloudflare Config** | `wrangler.jsonc` |
